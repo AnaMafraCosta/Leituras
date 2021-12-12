@@ -1,7 +1,7 @@
 @extends('layouts.auth')
 
 @section('imagem')
-<div class="col-lg-6 d-none d-lg-block" style="background-image: url('https://i.pinimg.com/564x/5b/0e/25/5b0e25eac9cf85d551d2d42c54a96334.jpg')"></div>
+<div class="col-lg-6 d-none d-lg-block" style="background-image: url('https://i.pinimg.com/564x/5e/bc/d3/5ebcd3ae893b738e9eea2d94907e29d0.jpg'); background-position:center;)"></div>
 @endsection
 
 @section('mensagem')
@@ -31,14 +31,10 @@
 </form>
 
 <hr>
-
-<div class="text-center">
-    <a class="small" href="forgot-password.html" style="color:#1D4D52">Esqueceu a senha?</a>
-</div>
 @endsection()
 
 @section('link-login-register')
-<a class="small" href="{{route('register')}}" style="color:#1D4D52">Cadastre-se!</a>
+<a class="small" href="{{route('register')}}" style="color:#1D4D52">Não tem uma conta? Cadastre-se!</a>
 @endsection()
 
 

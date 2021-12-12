@@ -16,7 +16,7 @@ use App\Http\Controllers\LeiturasController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 require __DIR__.'/auth.php';
 
@@ -26,6 +26,22 @@ Route::resource('/leituras', LeiturasController::class);
 Route::get('/dashboard/leituras', function () {
     return view('dashboard.inicio');
 })->name('inicio'); 
+
+Route::get('/blog/gêneros', function () {
+    return view('blog.generos');
+})->name('generos'); 
+
+Route::get('/blog/hábito', function () {
+    return view('blog.habito');
+})->name('habito'); 
+
+Route::get('/blog/ler-mais', function () {
+    return view('blog.lermais');
+})->name('lermais'); 
+
+Route::get('/blog/termos-literários', function () {
+    return view('blog.termos');
+})->name('termos'); 
 // Registrando rotas individualmente
 /* Route::get('/leituras', [LeiturasController::class,'index'])
     ->name('leituras.index'); 

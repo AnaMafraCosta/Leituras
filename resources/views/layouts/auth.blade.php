@@ -24,11 +24,13 @@
 
 <body style="background-color:#D92B04">
 
+    <h1><a href="{{route('welcome')}}" class="d-inline-block " style="background-color: #D92B04; color:white;margin: 10px;">
+        <i class="fas fa-book"></i>
+    </a></h1>
     <div class="container">
-
+   
         <!-- Outer Row -->
         <div class="row justify-content-center">
-
             <div class="col-xl-10 col-lg-12 col-md-9">
 
                 <div class="card o-hidden border-0 shadow-lg my-5">

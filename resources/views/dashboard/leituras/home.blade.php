@@ -6,7 +6,7 @@
 
 @section('cabecalho-pagina')
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0" style="color:#45858C">Leituras</h1>
+        <h2 class="mb-0" style="color:#45858C">Leituras</h2>
         <a href="{{route('leituras.create')}}" class="d-none d-sm-inline-block btn btn-sm shadow-sm" style="background-color: #D92B04; color:white">
         <i class="fas fa-edit"></i>
         Nova Leitura
@@ -17,7 +17,7 @@
 @section('conteudo-principal')
                     <div class="card shadow mb-4" >
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold" style="color:#D92B04">Leituras Registradas</h6>
+                            <h5 class="m-0 font-weight-bold" style="color:#D92B04">Leituras Registradas</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive-sm">
@@ -49,4 +49,6 @@
                             </div>
                         </div>
                     </div>
+
+
 @endsection()
